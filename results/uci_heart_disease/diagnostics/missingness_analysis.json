@@ -1,0 +1,142 @@
+{
+  "by_source": {
+    "Cleveland": {
+      "row_count": 303,
+      "feature_missing_counts": {
+        "age": 0,
+        "sex": 0,
+        "cp": 0,
+        "trestbps": 0,
+        "chol": 0,
+        "restecg": 0,
+        "thalach": 0
+      },
+      "feature_missing_percentages": {
+        "age": 0.0,
+        "sex": 0.0,
+        "cp": 0.0,
+        "trestbps": 0.0,
+        "chol": 0.0,
+        "restecg": 0.0,
+        "thalach": 0.0
+      },
+      "complete_record_count": 303,
+      "complete_record_percentage": 100.0,
+      "mean_missing_features_per_record": 0.0
+    },
+    "Hungary": {
+      "row_count": 294,
+      "feature_missing_counts": {
+        "age": 0,
+        "sex": 0,
+        "cp": 0,
+        "trestbps": 1,
+        "chol": 23,
+        "restecg": 1,
+        "thalach": 1
+      },
+      "feature_missing_percentages": {
+        "age": 0.0,
+        "sex": 0.0,
+        "cp": 0.0,
+        "trestbps": 0.3401360544217687,
+        "chol": 7.8231292517006805,
+        "restecg": 0.3401360544217687,
+        "thalach": 0.3401360544217687
+      },
+      "complete_record_count": 269,
+      "complete_record_percentage": 91.49659863945578,
+      "mean_missing_features_per_record": 0.08843537414965986
+    },
+    "Switzerland": {
+      "row_count": 123,
+      "feature_missing_counts": {
+        "age": 0,
+        "sex": 0,
+        "cp": 0,
+        "trestbps": 2,
+        "chol": 0,
+        "restecg": 1,
+        "thalach": 1
+      },
+      "feature_missing_percentages": {
+        "age": 0.0,
+        "sex": 0.0,
+        "cp": 0.0,
+        "trestbps": 1.6260162601626018,
+        "chol": 0.0,
+        "restecg": 0.8130081300813009,
+        "thalach": 0.8130081300813009
+      },
+      "complete_record_count": 120,
+      "complete_record_percentage": 97.5609756097561,
+      "mean_missing_features_per_record": 0.032520325203252036
+    },
+    "Long Beach VA": {
+      "row_count": 200,
+      "feature_missing_counts": {
+        "age": 0,
+        "sex": 0,
+        "cp": 0,
+        "trestbps": 56,
+        "chol": 7,
+        "restecg": 0,
+        "thalach": 53
+      },
+      "feature_missing_percentages": {
+        "age": 0.0,
+        "sex": 0.0,
+        "cp": 0.0,
+        "trestbps": 28.000000000000004,
+        "chol": 3.5000000000000004,
+        "restecg": 0.0,
+        "thalach": 26.5
+      },
+      "complete_record_count": 140,
+      "complete_record_percentage": 70.0,
+      "mean_missing_features_per_record": 0.58
+    }
+  },
+  "patterns": {
+    "Cleveland": {
+      "pattern_counts": {
+        "complete": 303
+      }
+    },
+    "Hungary": {
+      "pattern_counts": {
+        "complete": 269,
+        "restecg": 1,
+        "chol": 23,
+        "trestbps+thalach": 1
+      }
+    },
+    "Switzerland": {
+      "pattern_counts": {
+        "complete": 120,
+        "restecg": 1,
+        "trestbps": 1,
+        "trestbps+thalach": 1
+      }
+    },
+    "Long Beach VA": {
+      "pattern_counts": {
+        "complete": 140,
+        "chol": 4,
+        "trestbps": 3,
+        "trestbps+thalach": 50,
+        "trestbps+chol+thalach": 3
+      }
+    }
+  },
+  "largest_va_vs_development_differences": {
+    "trestbps": 27.583333333333336,
+    "thalach": 26.22222222222222,
+    "chol": 0.30555555555555625,
+    "restecg": 0.2777777777777778,
+    "age": 0.0,
+    "sex": 0.0,
+    "cp": 0.0
+  },
+  "interpretation": "Missingness differences identify possible measurement or collection-process differences. They are not evidence of causal effects on model performance."
+}

@@ -1,0 +1,74 @@
+{
+  "logistic_regression": {
+    "resamples_requested": 2000,
+    "resamples_valid": 2000,
+    "invalid_resamples": 0,
+    "confidence_level": 0.95,
+    "intervals": {
+      "roc_auc": {
+        "lower": 0.569819619757934,
+        "upper": 0.7561685748124752
+      },
+      "pr_auc": {
+        "lower": 0.7815005010678971,
+        "upper": 0.8863835423471921
+      },
+      "balanced_accuracy": {
+        "lower": 0.5572480589551256,
+        "upper": 0.6986330624355005
+      },
+      "sensitivity": {
+        "lower": 0.8108108108108109,
+        "upper": 0.9133333333333333
+      },
+      "specificity": {
+        "lower": 0.2549019607843137,
+        "upper": 0.5098039215686274
+      },
+      "brier_score": {
+        "lower": 0.15780484933474295,
+        "upper": 0.21452961688476874
+      },
+      "log_loss": {
+        "lower": 0.48762573725644126,
+        "upper": 0.6443633198318237
+      }
+    }
+  },
+  "random_forest": {
+    "resamples_requested": 2000,
+    "resamples_valid": 2000,
+    "invalid_resamples": 0,
+    "confidence_level": 0.95,
+    "intervals": {
+      "roc_auc": {
+        "lower": 0.5477020002631925,
+        "upper": 0.7434438942001614
+      },
+      "pr_auc": {
+        "lower": 0.7653749939740869,
+        "upper": 0.877238714999231
+      },
+      "balanced_accuracy": {
+        "lower": 0.5757816640169582,
+        "upper": 0.7149032767469403
+      },
+      "sensitivity": {
+        "lower": 0.8456375838926175,
+        "upper": 0.9459459459459459
+      },
+      "specificity": {
+        "lower": 0.2549019607843137,
+        "upper": 0.5294117647058824
+      },
+      "brier_score": {
+        "lower": 0.1525061729043226,
+        "upper": 0.2052326346035734
+      },
+      "log_loss": {
+        "lower": 0.4857168632615238,
+        "upper": 0.6544751724778672
+      }
+    }
+  }
+}

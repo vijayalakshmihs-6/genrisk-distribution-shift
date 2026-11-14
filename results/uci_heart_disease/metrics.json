@@ -1,0 +1,464 @@
+{
+  "experiment_a": [
+    {
+      "model": "logistic_regression",
+      "seed": 0,
+      "record_count": 143,
+      "class_counts": {
+        "0": 67,
+        "1": 76
+      },
+      "roc_auc": 0.8719560094265515,
+      "pr_auc": 0.8895845589621195,
+      "balanced_accuracy": 0.8003731343283582,
+      "sensitivity": 0.75,
+      "specificity": 0.8507462686567164,
+      "brier_score": 0.1459591216265764,
+      "log_loss": 0.4572423841050075
+    },
+    {
+      "model": "logistic_regression",
+      "seed": 1,
+      "record_count": 143,
+      "class_counts": {
+        "0": 68,
+        "1": 75
+      },
+      "roc_auc": 0.8609803921568627,
+      "pr_auc": 0.8677965341992813,
+      "balanced_accuracy": 0.7897058823529413,
+      "sensitivity": 0.8,
+      "specificity": 0.7794117647058824,
+      "brier_score": 0.15440204494666326,
+      "log_loss": 0.4672571201758117
+    },
+    {
+      "model": "logistic_regression",
+      "seed": 2,
+      "record_count": 144,
+      "class_counts": {
+        "0": 76,
+        "1": 68
+      },
+      "roc_auc": 0.8630030959752323,
+      "pr_auc": 0.8360280553761267,
+      "balanced_accuracy": 0.8041795665634675,
+      "sensitivity": 0.7794117647058824,
+      "specificity": 0.8289473684210527,
+      "brier_score": 0.15127602469815404,
+      "log_loss": 0.46375433522533793
+    },
+    {
+      "model": "logistic_regression",
+      "seed": 3,
+      "record_count": 143,
+      "class_counts": {
+        "0": 72,
+        "1": 71
+      },
+      "roc_auc": 0.8159233176838809,
+      "pr_auc": 0.8257140922696358,
+      "balanced_accuracy": 0.7341549295774648,
+      "sensitivity": 0.7183098591549296,
+      "specificity": 0.75,
+      "brier_score": 0.18533145461965234,
+      "log_loss": 0.5490836989943839
+    },
+    {
+      "model": "logistic_regression",
+      "seed": 4,
+      "record_count": 143,
+      "class_counts": {
+        "0": 73,
+        "1": 70
+      },
+      "roc_auc": 0.9279843444227006,
+      "pr_auc": 0.9278959644358187,
+      "balanced_accuracy": 0.8749510763209394,
+      "sensitivity": 0.9142857142857143,
+      "specificity": 0.8356164383561644,
+      "brier_score": 0.110601821311681,
+      "log_loss": 0.36536523670267385
+    },
+    {
+      "model": "logistic_regression",
+      "seed": 5,
+      "record_count": 144,
+      "class_counts": {
+        "0": 77,
+        "1": 67
+      },
+      "roc_auc": 0.8701298701298701,
+      "pr_auc": 0.8664132871071274,
+      "balanced_accuracy": 0.8166311300639659,
+      "sensitivity": 0.7761194029850746,
+      "specificity": 0.8571428571428571,
+      "brier_score": 0.14064055536133996,
+      "log_loss": 0.4441335966318129
+    },
+    {
+      "model": "logistic_regression",
+      "seed": 6,
+      "record_count": 143,
+      "class_counts": {
+        "0": 65,
+        "1": 78
+      },
+      "roc_auc": 0.8656804733727811,
+      "pr_auc": 0.8968876268563206,
+      "balanced_accuracy": 0.8179487179487179,
+      "sensitivity": 0.7435897435897436,
+      "specificity": 0.8923076923076924,
+      "brier_score": 0.15060494447584963,
+      "log_loss": 0.4817769899361635
+    },
+    {
+      "model": "logistic_regression",
+      "seed": 7,
+      "record_count": 143,
+      "class_counts": {
+        "0": 73,
+        "1": 70
+      },
+      "roc_auc": 0.8598825831702545,
+      "pr_auc": 0.8451675947294138,
+      "balanced_accuracy": 0.7960861056751467,
+      "sensitivity": 0.7428571428571429,
+      "specificity": 0.8493150684931506,
+      "brier_score": 0.15209470694892352,
+      "log_loss": 0.4757244060365784
+    },
+    {
+      "model": "logistic_regression",
+      "seed": 8,
+      "record_count": 144,
+      "class_counts": {
+        "0": 69,
+        "1": 75
+      },
+      "roc_auc": 0.8682125603864734,
+      "pr_auc": 0.8654750996755419,
+      "balanced_accuracy": 0.7652173913043478,
+      "sensitivity": 0.7333333333333333,
+      "specificity": 0.7971014492753623,
+      "brier_score": 0.15273958008797667,
+      "log_loss": 0.46221350512346265
+    },
+    {
+      "model": "logistic_regression",
+      "seed": 9,
+      "record_count": 143,
+      "class_counts": {
+        "0": 73,
+        "1": 70
+      },
+      "roc_auc": 0.8418786692759296,
+      "pr_auc": 0.8475964042977064,
+      "balanced_accuracy": 0.811252446183953,
+      "sensitivity": 0.8142857142857143,
+      "specificity": 0.8082191780821918,
+      "brier_score": 0.157449894438178,
+      "log_loss": 0.4950436440639287
+    },
+    {
+      "model": "random_forest",
+      "seed": 0,
+      "record_count": 143,
+      "class_counts": {
+        "0": 67,
+        "1": 76
+      },
+      "roc_auc": 0.8627258444619011,
+      "pr_auc": 0.8781471946203323,
+      "balanced_accuracy": 0.7797525530243519,
+      "sensitivity": 0.7236842105263158,
+      "specificity": 0.835820895522388,
+      "brier_score": 0.1496752136752137,
+      "log_loss": 0.4790650740555959
+    },
+    {
+      "model": "random_forest",
+      "seed": 1,
+      "record_count": 143,
+      "class_counts": {
+        "0": 68,
+        "1": 75
+      },
+      "roc_auc": 0.857450980392157,
+      "pr_auc": 0.8622909959761828,
+      "balanced_accuracy": 0.8184313725490195,
+      "sensitivity": 0.8133333333333334,
+      "specificity": 0.8235294117647058,
+      "brier_score": 0.1512028749028749,
+      "log_loss": 0.47284129077288994
+    },
+    {
+      "model": "random_forest",
+      "seed": 2,
+      "record_count": 144,
+      "class_counts": {
+        "0": 76,
+        "1": 68
+      },
+      "roc_auc": 0.8722910216718266,
+      "pr_auc": 0.8455197865497575,
+      "balanced_accuracy": 0.7592879256965944,
+      "sensitivity": 0.6764705882352942,
+      "specificity": 0.8421052631578947,
+      "brier_score": 0.14837970679012347,
+      "log_loss": 0.44258576186402887
+    },
+    {
+      "model": "random_forest",
+      "seed": 3,
+      "record_count": 143,
+      "class_counts": {
+        "0": 72,
+        "1": 71
+      },
+      "roc_auc": 0.8150430359937402,
+      "pr_auc": 0.8179440284040338,
+      "balanced_accuracy": 0.7273082942097027,
+      "sensitivity": 0.7323943661971831,
+      "specificity": 0.7222222222222222,
+      "brier_score": 0.18321538461538459,
+      "log_loss": 0.555611453831362
+    },
+    {
+      "model": "random_forest",
+      "seed": 4,
+      "record_count": 143,
+      "class_counts": {
+        "0": 73,
+        "1": 70
+      },
+      "roc_auc": 0.913013698630137,
+      "pr_auc": 0.9077136377235023,
+      "balanced_accuracy": 0.8189823874755382,
+      "sensitivity": 0.8571428571428571,
+      "specificity": 0.7808219178082192,
+      "brier_score": 0.12219160839160838,
+      "log_loss": 0.3791509934271877
+    },
+    {
+      "model": "random_forest",
+      "seed": 5,
+      "record_count": 144,
+      "class_counts": {
+        "0": 77,
+        "1": 67
+      },
+      "roc_auc": 0.8696452800930413,
+      "pr_auc": 0.8689766170585203,
+      "balanced_accuracy": 0.7708858305873232,
+      "sensitivity": 0.6716417910447762,
+      "specificity": 0.8701298701298701,
+      "brier_score": 0.14638811728395063,
+      "log_loss": 0.450129380268785
+    },
+    {
+      "model": "random_forest",
+      "seed": 6,
+      "record_count": 143,
+      "class_counts": {
+        "0": 65,
+        "1": 78
+      },
+      "roc_auc": 0.8707100591715976,
+      "pr_auc": 0.8937808982565724,
+      "balanced_accuracy": 0.7807692307692308,
+      "sensitivity": 0.7307692307692307,
+      "specificity": 0.8307692307692308,
+      "brier_score": 0.14735718725718727,
+      "log_loss": 0.47503369799771306
+    },
+    {
+      "model": "random_forest",
+      "seed": 7,
+      "record_count": 143,
+      "class_counts": {
+        "0": 73,
+        "1": 70
+      },
+      "roc_auc": 0.8309197651663405,
+      "pr_auc": 0.8083474567533107,
+      "balanced_accuracy": 0.7895303326810176,
+      "sensitivity": 0.7571428571428571,
+      "specificity": 0.821917808219178,
+      "brier_score": 0.16918360528360527,
+      "log_loss": 0.5265912739677332
+    },
+    {
+      "model": "random_forest",
+      "seed": 8,
+      "record_count": 144,
+      "class_counts": {
+        "0": 69,
+        "1": 75
+      },
+      "roc_auc": 0.8721739130434782,
+      "pr_auc": 0.8617660180395257,
+      "balanced_accuracy": 0.7802898550724637,
+      "sensitivity": 0.72,
+      "specificity": 0.8405797101449275,
+      "brier_score": 0.15110447530864196,
+      "log_loss": 0.4617799746275646
+    },
+    {
+      "model": "random_forest",
+      "seed": 9,
+      "record_count": 143,
+      "class_counts": {
+        "0": 73,
+        "1": 70
+      },
+      "roc_auc": 0.824559686888454,
+      "pr_auc": 0.8262410282751869,
+      "balanced_accuracy": 0.7829745596868884,
+      "sensitivity": 0.7714285714285715,
+      "specificity": 0.7945205479452054,
+      "brier_score": 0.16992307692307693,
+      "log_loss": 0.5400994999728889
+    }
+  ],
+  "experiment_a_summary": {
+    "logistic_regression": {
+      "roc_auc_mean": 0.8645631316000537,
+      "roc_auc_std": 0.027968342887437124,
+      "pr_auc_mean": 0.8668559217909092,
+      "pr_auc_std": 0.030968960156567672,
+      "balanced_accuracy_mean": 0.8010500380319302,
+      "balanced_accuracy_std": 0.03653963624269885,
+      "sensitivity_mean": 0.7772192675197535,
+      "sensitivity_std": 0.056896585966559,
+      "specificity_mean": 0.824880808544107,
+      "specificity_std": 0.04177843987228331,
+      "brier_score_mean": 0.15011001485149947,
+      "brier_score_std": 0.01823641430019927,
+      "log_loss_mean": 0.4661594916995161,
+      "log_loss_std": 0.045695622606412946
+    },
+    "random_forest": {
+      "roc_auc_mean": 0.8588533285512673,
+      "roc_auc_std": 0.028753832690366722,
+      "pr_auc_mean": 0.8570727661656925,
+      "pr_auc_std": 0.03255142233710784,
+      "balanced_accuracy_mean": 0.780821234175213,
+      "balanced_accuracy_std": 0.02662233574985074,
+      "sensitivity_mean": 0.745400780582042,
+      "sensitivity_std": 0.05735683989483601,
+      "specificity_mean": 0.8162416877683842,
+      "specificity_std": 0.041380285336168075,
+      "brier_score_mean": 0.15386212504316668,
+      "brier_score_std": 0.016725814353843786,
+      "log_loss_mean": 0.47828884007857486,
+      "log_loss_std": 0.052006264499009046
+    }
+  },
+  "experiment_b": {
+    "logistic_regression": {
+      "metrics": {
+        "record_count": 200,
+        "class_counts": {
+          "0": 51,
+          "1": 149
+        },
+        "roc_auc": 0.6667982629293329,
+        "pr_auc": 0.8343708294747769,
+        "balanced_accuracy": 0.6289643374128174,
+        "sensitivity": 0.8657718120805369,
+        "specificity": 0.39215686274509803,
+        "brier_score": 0.18512919132755293,
+        "log_loss": 0.5634513349889836
+      },
+      "confidence_intervals": {
+        "resamples_requested": 2000,
+        "resamples_valid": 2000,
+        "invalid_resamples": 0,
+        "confidence_level": 0.95,
+        "intervals": {
+          "roc_auc": {
+            "lower": 0.569819619757934,
+            "upper": 0.7561685748124752
+          },
+          "pr_auc": {
+            "lower": 0.7815005010678971,
+            "upper": 0.8863835423471921
+          },
+          "balanced_accuracy": {
+            "lower": 0.5572480589551256,
+            "upper": 0.6986330624355005
+          },
+          "sensitivity": {
+            "lower": 0.8108108108108109,
+            "upper": 0.9133333333333333
+          },
+          "specificity": {
+            "lower": 0.2549019607843137,
+            "upper": 0.5098039215686274
+          },
+          "brier_score": {
+            "lower": 0.15780484933474295,
+            "upper": 0.21452961688476874
+          },
+          "log_loss": {
+            "lower": 0.48762573725644126,
+            "upper": 0.6443633198318237
+          }
+        }
+      }
+    },
+    "random_forest": {
+      "metrics": {
+        "record_count": 200,
+        "class_counts": {
+          "0": 51,
+          "1": 149
+        },
+        "roc_auc": 0.6556125806027109,
+        "pr_auc": 0.8230047828536565,
+        "balanced_accuracy": 0.6457428609027503,
+        "sensitivity": 0.8993288590604027,
+        "specificity": 0.39215686274509803,
+        "brier_score": 0.1769632777777778,
+        "log_loss": 0.5635412130680743
+      },
+      "confidence_intervals": {
+        "resamples_requested": 2000,
+        "resamples_valid": 2000,
+        "invalid_resamples": 0,
+        "confidence_level": 0.95,
+        "intervals": {
+          "roc_auc": {
+            "lower": 0.5477020002631925,
+            "upper": 0.7434438942001614
+          },
+          "pr_auc": {
+            "lower": 0.7653749939740869,
+            "upper": 0.877238714999231
+          },
+          "balanced_accuracy": {
+            "lower": 0.5757816640169582,
+            "upper": 0.7149032767469403
+          },
+          "sensitivity": {
+            "lower": 0.8456375838926175,
+            "upper": 0.9459459459459459
+          },
+          "specificity": {
+            "lower": 0.2549019607843137,
+            "upper": 0.5294117647058824
+          },
+          "brier_score": {
+            "lower": 0.1525061729043226,
+            "upper": 0.2052326346035734
+          },
+          "log_loss": {
+            "lower": 0.4857168632615238,
+            "upper": 0.6544751724778672
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "numeric": {
+    "age": {
+      "Cleveland": {
+        "count": 303,
+        "missing_count": 0,
+        "mean": 54.43894389438944,
+        "std": 9.038662442446746,
+        "median": 56.0,
+        "q1": 48.0,
+        "q3": 61.0
+      },
+      "Hungary": {
+        "count": 294,
+        "missing_count": 0,
+        "mean": 47.826530612244895,
+        "std": 7.811812413149755,
+        "median": 49.0,
+        "q1": 42.0,
+        "q3": 54.0
+      },
+      "Switzerland": {
+        "count": 123,
+        "missing_count": 0,
+        "mean": 55.31707317073171,
+        "std": 9.032107639562039,
+        "median": 56.0,
+        "q1": 51.0,
+        "q3": 61.5
+      },
+      "Long Beach VA": {
+        "count": 200,
+        "missing_count": 0,
+        "mean": 59.35,
+        "std": 7.811697194933162,
+        "median": 60.0,
+        "q1": 55.0,
+        "q3": 64.0
+      }
+    },
+    "trestbps": {
+      "Cleveland": {
+        "count": 303,
+        "missing_count": 0,
+        "mean": 131.68976897689768,
+        "std": 17.59974772958769,
+        "median": 130.0,
+        "q1": 120.0,
+        "q3": 140.0
+      },
+      "Hungary": {
+        "count": 293,
+        "missing_count": 1,
+        "mean": 132.5836177474403,
+        "std": 17.62656787597232,
+        "median": 130.0,
+        "q1": 120.0,
+        "q3": 140.0
+      },
+      "Switzerland": {
+        "count": 121,
+        "missing_count": 2,
+        "mean": 130.20661157024793,
+        "std": 22.559150898387074,
+        "median": 125.0,
+        "q1": 115.0,
+        "q3": 145.0
+      },
+      "Long Beach VA": {
+        "count": 144,
+        "missing_count": 56,
+        "mean": 133.76388888888889,
+        "std": 21.537732741027586,
+        "median": 130.0,
+        "q1": 120.0,
+        "q3": 147.0
+      }
+    },
+    "chol": {
+      "Cleveland": {
+        "count": 303,
+        "missing_count": 0,
+        "mean": 246.69306930693068,
+        "std": 51.77691754263704,
+        "median": 241.0,
+        "q1": 211.0,
+        "q3": 275.0
+      },
+      "Hungary": {
+        "count": 271,
+        "missing_count": 23,
+        "mean": 250.84870848708488,
+        "std": 67.65771142295965,
+        "median": 243.0,
+        "q1": 209.0,
+        "q3": 282.5
+      },
+      "Switzerland": {
+        "count": 123,
+        "missing_count": 0,
+        "mean": 0.0,
+        "std": 0.0,
+        "median": 0.0,
+        "q1": 0.0,
+        "q3": 0.0
+      },
+      "Long Beach VA": {
+        "count": 193,
+        "missing_count": 7,
+        "mean": 178.7461139896373,
+        "std": 114.03523211932254,
+        "median": 216.0,
+        "q1": 0.0,
+        "q3": 258.0
+      }
+    },
+    "thalach": {
+      "Cleveland": {
+        "count": 303,
+        "missing_count": 0,
+        "mean": 149.6072607260726,
+        "std": 22.875003276980376,
+        "median": 153.0,
+        "q1": 133.5,
+        "q3": 166.0
+      },
+      "Hungary": {
+        "count": 293,
+        "missing_count": 1,
+        "mean": 139.1296928327645,
+        "std": 23.58974931724648,
+        "median": 140.0,
+        "q1": 122.0,
+        "q3": 155.0
+      },
+      "Switzerland": {
+        "count": 122,
+        "missing_count": 1,
+        "mean": 121.55737704918033,
+        "std": 25.977437502166627,
+        "median": 121.0,
+        "q1": 104.25,
+        "q3": 140.0
+      },
+      "Long Beach VA": {
+        "count": 147,
+        "missing_count": 53,
+        "mean": 122.79591836734694,
+        "std": 21.99032750493072,
+        "median": 120.0,
+        "q1": 109.0,
+        "q3": 140.0
+      }
+    }
+  },
+  "categorical": {
+    "sex": {
+      "Cleveland": {
+        "0.0": 0.3201320132013201,
+        "1.0": 0.6798679867986799
+      },
+      "Hungary": {
+        "0.0": 0.2755102040816326,
+        "1.0": 0.7244897959183674
+      },
+      "Switzerland": {
+        "0.0": 0.08130081300813008,
+        "1.0": 0.9186991869918699
+      },
+      "Long Beach VA": {
+        "0.0": 0.03,
+        "1.0": 0.97
+      }
+    },
+    "cp": {
+      "Cleveland": {
+        "1.0": 0.07590759075907591,
+        "2.0": 0.16501650165016502,
+        "3.0": 0.2838283828382838,
+        "4.0": 0.4752475247524752
+      },
+      "Hungary": {
+        "1.0": 0.03741496598639456,
+        "2.0": 0.36054421768707484,
+        "3.0": 0.1836734693877551,
+        "4.0": 0.41836734693877553
+      },
+      "Switzerland": {
+        "1.0": 0.032520325203252036,
+        "2.0": 0.032520325203252036,
+        "3.0": 0.13821138211382114,
+        "4.0": 0.7967479674796748
+      },
+      "Long Beach VA": {
+        "1.0": 0.04,
+        "2.0": 0.07,
+        "3.0": 0.235,
+        "4.0": 0.655
+      }
+    },
+    "restecg": {
+      "Cleveland": {
+        "0.0": 0.49834983498349833,
+        "1.0": 0.013201320132013201,
+        "2.0": 0.4884488448844885
+      },
+      "Hungary": {
+        "0.0": 0.7993197278911565,
+        "1.0": 0.17687074829931973,
+        "2.0": 0.02040816326530612,
+        "__MISSING__": 0.003401360544217687
+      },
+      "Switzerland": {
+        "0.0": 0.6910569105691057,
+        "1.0": 0.24390243902439024,
+        "2.0": 0.056910569105691054,
+        "__MISSING__": 0.008130081300813009
+      },
+      "Long Beach VA": {
+        "0.0": 0.4,
+        "1.0": 0.465,
+        "2.0": 0.135
+      }
+    }
+  },
+  "comparisons": {
+    "age": {
+      "va_vs_pooled_development_smd": 0.8746145877659312,
+      "development_sources_vs_pooled_smd": {
+        "Cleveland": 0.27971799630773103,
+        "Hungary": -0.4761992932696078,
+        "Switzerland": 0.3761749003797697
+      }
+    },
+    "trestbps": {
+      "va_vs_pooled_development_smd": 0.09751888334100219,
+      "development_sources_vs_pooled_smd": {
+        "Cleveland": -0.006362463071723205,
+        "Hungary": 0.04307087403712055,
+        "Switzerland": -0.07741824975728129
+      }
+    },
+    "chol": {
+      "va_vs_pooled_development_smd": -0.23306326046902123,
+      "development_sources_vs_pooled_smd": {
+        "Cleveland": 0.4902491303641405,
+        "Hungary": 0.5069715376814627,
+        "Switzerland": -2.650146991489527
+      }
+    },
+    "thalach": {
+      "va_vs_pooled_development_smd": -0.7438432433365051,
+      "development_sources_vs_pooled_smd": {
+        "Cleveland": 0.37208062300297035,
+        "Hungary": -0.058269887265801595,
+        "Switzerland": -0.7363811070873697
+      }
+    },
+    "sex": {
+      "va_vs_pooled_development_absolute_differences": {
+        "0.0": 0.23111111111111113,
+        "1.0": 0.23111111111111104
+      },
+      "va_vs_pooled_development_js_divergence": 0.08720025828331981,
+      "development_source_pairwise_js_divergence": {
+        "Cleveland_vs_Hungary": 0.001718237510942175,
+        "Cleveland_vs_Switzerland": 0.06772303824370376,
+        "Hungary_vs_Switzerland": 0.04857295671258539
+      }
+    },
+    "cp": {
+      "va_vs_pooled_development_absolute_differences": {
+        "1.0": 0.012777777777777777,
+        "2.0": 0.1522222222222222,
+        "3.0": 0.01694444444444443,
+        "4.0": 0.1480555555555556
+      },
+      "va_vs_pooled_development_js_divergence": 0.0377459971153587,
+      "development_source_pairwise_js_divergence": {
+        "Cleveland_vs_Hungary": 0.0407948995705663,
+        "Cleveland_vs_Switzerland": 0.08960443458053209,
+        "Hungary_vs_Switzerland": 0.16126999431245703
+      }
+    },
+    "restecg": {
+      "va_vs_pooled_development_absolute_differences": {
+        "0.0": 0.25416666666666665,
+        "1.0": 0.34555555555555556,
+        "2.0": 0.08861111111111111,
+        "__MISSING__": 0.002777777777777778
+      },
+      "va_vs_pooled_development_js_divergence": 0.11041849881423593,
+      "development_source_pairwise_js_divergence": {
+        "Cleveland_vs_Hungary": 0.28022091550682837,
+        "Cleveland_vs_Switzerland": 0.24745059039775344,
+        "Hungary_vs_Switzerland": 0.013897117384392234
+      }
+    }
+  },
+  "interpretation": "Distribution differences are descriptive associations between source and feature values. They do not establish that any feature shift caused external performance deterioration."
+}

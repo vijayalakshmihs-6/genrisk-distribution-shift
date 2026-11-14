@@ -1,0 +1,377 @@
+{
+  "evaluations": {
+    "A_random_group_stratified": {
+      "logistic_regression": {
+        "record_count": 1433,
+        "unique_record_count": 484,
+        "probability_summary": {
+          "mean": 0.4756546089555867,
+          "std": 0.33263270125792027,
+          "median": 0.4599705877626024,
+          "q1": 0.1363118150394746,
+          "q3": 0.8142859591831646
+        },
+        "metrics": {
+          "record_count": 1433,
+          "class_counts": {
+            "0": 713,
+            "1": 720
+          },
+          "roc_auc": 0.8628525790868006,
+          "pr_auc": 0.8631945210370846,
+          "balanced_accuracy": 0.8005366604332242,
+          "sensitivity": 0.7763888888888889,
+          "specificity": 0.8246844319775596,
+          "brier_score": 0.15010605540669347,
+          "log_loss": 0.46613968916070386
+        },
+        "baselines": {
+          "prevalence": 0.5024424284717376,
+          "prevalence_only_brier": 0.24999403454316044,
+          "prevalence_pr_auc_baseline": 0.5024424284717376
+        },
+        "calibration_curve": [
+          {
+            "bin": 1,
+            "count": 144,
+            "mean_predicted_probability": 0.03662966179636932,
+            "observed_positive_rate": 0.05555555555555555
+          },
+          {
+            "bin": 2,
+            "count": 143,
+            "mean_predicted_probability": 0.07387778669671934,
+            "observed_positive_rate": 0.16783216783216784
+          },
+          {
+            "bin": 3,
+            "count": 143,
+            "mean_predicted_probability": 0.13725967484625742,
+            "observed_positive_rate": 0.14685314685314685
+          },
+          {
+            "bin": 4,
+            "count": 144,
+            "mean_predicted_probability": 0.23568199910830895,
+            "observed_positive_rate": 0.2777777777777778
+          },
+          {
+            "bin": 5,
+            "count": 143,
+            "mean_predicted_probability": 0.37810035778186785,
+            "observed_positive_rate": 0.3776223776223776
+          },
+          {
+            "bin": 6,
+            "count": 143,
+            "mean_predicted_probability": 0.5491977266171033,
+            "observed_positive_rate": 0.6223776223776224
+          },
+          {
+            "bin": 7,
+            "count": 144,
+            "mean_predicted_probability": 0.7061697687025874,
+            "observed_positive_rate": 0.7291666666666666
+          },
+          {
+            "bin": 8,
+            "count": 143,
+            "mean_predicted_probability": 0.8128993336737199,
+            "observed_positive_rate": 0.8391608391608392
+          },
+          {
+            "bin": 9,
+            "count": 143,
+            "mean_predicted_probability": 0.8846261142231997,
+            "observed_positive_rate": 0.8741258741258742
+          },
+          {
+            "bin": 10,
+            "count": 143,
+            "mean_predicted_probability": 0.9452399066500098,
+            "observed_positive_rate": 0.9370629370629371
+          }
+        ]
+      },
+      "random_forest": {
+        "record_count": 1433,
+        "unique_record_count": 484,
+        "probability_summary": {
+          "mean": 0.4722400558269365,
+          "std": 0.33660980316877326,
+          "median": 0.4433333333333333,
+          "q1": 0.1366666666666666,
+          "q3": 0.8033333333333333
+        },
+        "metrics": {
+          "record_count": 1433,
+          "class_counts": {
+            "0": 713,
+            "1": 720
+          },
+          "roc_auc": 0.8581736013713572,
+          "pr_auc": 0.8555877858451146,
+          "balanced_accuracy": 0.7810513090229079,
+          "sensitivity": 0.7458333333333333,
+          "specificity": 0.8162692847124825,
+          "brier_score": 0.15385115918430645,
+          "log_loss": 0.4782327539631002
+        },
+        "baselines": {
+          "prevalence": 0.5024424284717376,
+          "prevalence_only_brier": 0.24999403454316044,
+          "prevalence_pr_auc_baseline": 0.5024424284717376
+        },
+        "calibration_curve": [
+          {
+            "bin": 1,
+            "count": 144,
+            "mean_predicted_probability": 0.0170833333333333,
+            "observed_positive_rate": 0.08333333333333333
+          },
+          {
+            "bin": 2,
+            "count": 143,
+            "mean_predicted_probability": 0.06407925407925406,
+            "observed_positive_rate": 0.07692307692307693
+          },
+          {
+            "bin": 3,
+            "count": 143,
+            "mean_predicted_probability": 0.1413986013986014,
+            "observed_positive_rate": 0.16083916083916083
+          },
+          {
+            "bin": 4,
+            "count": 144,
+            "mean_predicted_probability": 0.25611111111111107,
+            "observed_positive_rate": 0.3263888888888889
+          },
+          {
+            "bin": 5,
+            "count": 143,
+            "mean_predicted_probability": 0.3742424242424242,
+            "observed_positive_rate": 0.46853146853146854
+          },
+          {
+            "bin": 6,
+            "count": 143,
+            "mean_predicted_probability": 0.5216083916083917,
+            "observed_positive_rate": 0.5244755244755245
+          },
+          {
+            "bin": 7,
+            "count": 144,
+            "mean_predicted_probability": 0.6820370370370371,
+            "observed_positive_rate": 0.7708333333333334
+          },
+          {
+            "bin": 8,
+            "count": 143,
+            "mean_predicted_probability": 0.8023776223776221,
+            "observed_positive_rate": 0.8601398601398601
+          },
+          {
+            "bin": 9,
+            "count": 143,
+            "mean_predicted_probability": 0.8936829836829838,
+            "observed_positive_rate": 0.7832167832167832
+          },
+          {
+            "bin": 10,
+            "count": 143,
+            "mean_predicted_probability": 0.9730069930069929,
+            "observed_positive_rate": 0.972027972027972
+          }
+        ]
+      }
+    },
+    "B_external_va": {
+      "logistic_regression": {
+        "record_count": 200,
+        "unique_record_count": 200,
+        "probability_summary": {
+          "mean": 0.7183116284201978,
+          "std": 0.23775175683057717,
+          "median": 0.8072607531487423,
+          "q1": 0.5927317037280908,
+          "q3": 0.9014757913730533
+        },
+        "metrics": {
+          "record_count": 200,
+          "class_counts": {
+            "0": 51,
+            "1": 149
+          },
+          "roc_auc": 0.6667982629293329,
+          "pr_auc": 0.8343708294747769,
+          "balanced_accuracy": 0.6289643374128174,
+          "sensitivity": 0.8657718120805369,
+          "specificity": 0.39215686274509803,
+          "brier_score": 0.18512919132755293,
+          "log_loss": 0.5634513349889837
+        },
+        "baselines": {
+          "prevalence": 0.745,
+          "prevalence_only_brier": 0.189975,
+          "prevalence_pr_auc_baseline": 0.745
+        },
+        "calibration_curve": [
+          {
+            "bin": 1,
+            "count": 20,
+            "mean_predicted_probability": 0.2155543497085465,
+            "observed_positive_rate": 0.4
+          },
+          {
+            "bin": 2,
+            "count": 20,
+            "mean_predicted_probability": 0.3899885414909027,
+            "observed_positive_rate": 0.6
+          },
+          {
+            "bin": 3,
+            "count": 20,
+            "mean_predicted_probability": 0.5867346116541045,
+            "observed_positive_rate": 0.85
+          },
+          {
+            "bin": 4,
+            "count": 20,
+            "mean_predicted_probability": 0.7216795147561218,
+            "observed_positive_rate": 0.6
+          },
+          {
+            "bin": 5,
+            "count": 20,
+            "mean_predicted_probability": 0.7830909267879056,
+            "observed_positive_rate": 0.85
+          },
+          {
+            "bin": 6,
+            "count": 20,
+            "mean_predicted_probability": 0.8251213215592526,
+            "observed_positive_rate": 0.8
+          },
+          {
+            "bin": 7,
+            "count": 20,
+            "mean_predicted_probability": 0.8734083575274264,
+            "observed_positive_rate": 0.85
+          },
+          {
+            "bin": 8,
+            "count": 20,
+            "mean_predicted_probability": 0.903724479493517,
+            "observed_positive_rate": 0.9
+          },
+          {
+            "bin": 9,
+            "count": 20,
+            "mean_predicted_probability": 0.9281916307585755,
+            "observed_positive_rate": 0.75
+          },
+          {
+            "bin": 10,
+            "count": 20,
+            "mean_predicted_probability": 0.9556225504656259,
+            "observed_positive_rate": 0.85
+          }
+        ]
+      },
+      "random_forest": {
+        "record_count": 200,
+        "unique_record_count": 200,
+        "probability_summary": {
+          "mean": 0.7266499999999999,
+          "std": 0.21836085407126304,
+          "median": 0.7883333333333333,
+          "q1": 0.6166666666666667,
+          "q3": 0.885
+        },
+        "metrics": {
+          "record_count": 200,
+          "class_counts": {
+            "0": 51,
+            "1": 149
+          },
+          "roc_auc": 0.6556125806027109,
+          "pr_auc": 0.8230047828536565,
+          "balanced_accuracy": 0.6457428609027503,
+          "sensitivity": 0.8993288590604027,
+          "specificity": 0.39215686274509803,
+          "brier_score": 0.1769632777777778,
+          "log_loss": 0.5635412130680741
+        },
+        "baselines": {
+          "prevalence": 0.745,
+          "prevalence_only_brier": 0.189975,
+          "prevalence_pr_auc_baseline": 0.745
+        },
+        "calibration_curve": [
+          {
+            "bin": 1,
+            "count": 20,
+            "mean_predicted_probability": 0.26116666666666666,
+            "observed_positive_rate": 0.35
+          },
+          {
+            "bin": 2,
+            "count": 20,
+            "mean_predicted_probability": 0.4728333333333333,
+            "observed_positive_rate": 0.6
+          },
+          {
+            "bin": 3,
+            "count": 20,
+            "mean_predicted_probability": 0.6105,
+            "observed_positive_rate": 0.8
+          },
+          {
+            "bin": 4,
+            "count": 20,
+            "mean_predicted_probability": 0.6900000000000001,
+            "observed_positive_rate": 0.85
+          },
+          {
+            "bin": 5,
+            "count": 20,
+            "mean_predicted_probability": 0.7569999999999999,
+            "observed_positive_rate": 0.85
+          },
+          {
+            "bin": 6,
+            "count": 20,
+            "mean_predicted_probability": 0.8123333333333334,
+            "observed_positive_rate": 0.7
+          },
+          {
+            "bin": 7,
+            "count": 20,
+            "mean_predicted_probability": 0.8468333333333333,
+            "observed_positive_rate": 0.85
+          },
+          {
+            "bin": 8,
+            "count": 20,
+            "mean_predicted_probability": 0.8905000000000001,
+            "observed_positive_rate": 0.8
+          },
+          {
+            "bin": 9,
+            "count": 20,
+            "mean_predicted_probability": 0.9403333333333336,
+            "observed_positive_rate": 0.8
+          },
+          {
+            "bin": 10,
+            "count": 20,
+            "mean_predicted_probability": 0.985,
+            "observed_positive_rate": 0.85
+          }
+        ]
+      }
+    }
+  },
+  "interpretation": "The reliability analysis is descriptive. The saved probabilities were not recalibrated and VA was not used for tuning."
+}
