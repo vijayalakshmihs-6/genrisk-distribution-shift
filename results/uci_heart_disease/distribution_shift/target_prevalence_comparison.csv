@@ -1,0 +1,11 @@
+row_type,source,source_a,source_b,comparison_type,observation_count,positive_count,negative_count,positive_prevalence,absolute_prevalence_difference
+source,Cleveland,Cleveland,,,303.0,139.0,164.0,0.45874587458745875,
+source,Hungary,Hungary,,,294.0,106.0,188.0,0.36054421768707484,
+source,Switzerland,Switzerland,,,123.0,115.0,8.0,0.9349593495934959,
+source,Long Beach VA,Long Beach VA,,,200.0,149.0,51.0,0.745,
+pairwise,,Cleveland,Hungary,development_development,,,,,0.0982016569003839
+pairwise,,Cleveland,Switzerland,development_development,,,,,0.47621347500603717
+pairwise,,Cleveland,Long Beach VA,development_external,,,,,0.28625412541254125
+pairwise,,Hungary,Switzerland,development_development,,,,,0.574415131906421
+pairwise,,Hungary,Long Beach VA,development_external,,,,,0.38445578231292515
+pairwise,,Switzerland,Long Beach VA,development_external,,,,,0.18995934959349592

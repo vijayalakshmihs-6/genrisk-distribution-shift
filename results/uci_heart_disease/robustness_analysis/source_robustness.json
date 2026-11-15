@@ -1,0 +1,253 @@
+{
+  "interpretation": "Source-level descriptive variation; no significance claims are made.",
+  "models": {
+    "logistic_regression": {
+      "metrics": {
+        "roc_auc": {
+          "source_values": {
+            "Cleveland": 0.8287418845411476,
+            "Hungary": 0.8243677238057006,
+            "Switzerland": 0.817391304347826
+          },
+          "mean": 0.823500304231558,
+          "standard_deviation": 0.005724790845040559,
+          "median": 0.8243677238057006,
+          "range": 0.01135058019332158,
+          "random_split_mean": 0.8645631316000537,
+          "random_minus_source_mean": 0.04106282736849576,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": true
+        },
+        "balanced_accuracy": {
+          "source_values": {
+            "Cleveland": 0.7610545709773644,
+            "Hungary": 0.7343436370935368,
+            "Switzerland": 0.7114130434782608
+          },
+          "mean": 0.7356037505163874,
+          "standard_deviation": 0.024844742451671738,
+          "median": 0.7343436370935368,
+          "range": 0.049641527499103555,
+          "random_split_mean": 0.8010500380319302,
+          "random_minus_source_mean": 0.06544628751554282,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": true
+        },
+        "accuracy": {
+          "source_values": {
+            "Cleveland": 0.7656765676567657,
+            "Hungary": 0.7312925170068028,
+            "Switzerland": 0.5691056910569106
+          },
+          "mean": 0.6886915919068265,
+          "standard_deviation": 0.10498169600620492,
+          "median": 0.7312925170068028,
+          "range": 0.19657087659985517,
+          "random_split_mean": 0.8004273504273506,
+          "random_minus_source_mean": 0.11173575852052409,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": true
+        },
+        "sensitivity": {
+          "source_values": {
+            "Cleveland": 0.7050359712230215,
+            "Hungary": 0.7452830188679245,
+            "Switzerland": 0.5478260869565217
+          },
+          "mean": 0.6660483590158225,
+          "standard_deviation": 0.1043423951190516,
+          "median": 0.7050359712230215,
+          "range": 0.1974569319114028,
+          "random_split_mean": 0.7772192675197535,
+          "random_minus_source_mean": 0.11117090850393097,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": true
+        },
+        "specificity": {
+          "source_values": {
+            "Cleveland": 0.8170731707317073,
+            "Hungary": 0.723404255319149,
+            "Switzerland": 0.875
+          },
+          "mean": 0.805159142016952,
+          "standard_deviation": 0.07649689870509425,
+          "median": 0.8170731707317073,
+          "range": 0.15159574468085102,
+          "random_split_mean": 0.824880808544107,
+          "random_minus_source_mean": 0.019721666527154902,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": false
+        },
+        "precision": {
+          "source_values": {
+            "Cleveland": 0.765625,
+            "Hungary": 0.6030534351145038,
+            "Switzerland": 0.984375
+          },
+          "mean": 0.7843511450381678,
+          "standard_deviation": 0.19134924965275876,
+          "median": 0.765625,
+          "range": 0.3813215648854962,
+          "random_split_mean": 0.8178031963412679,
+          "random_minus_source_mean": 0.03345205130310003,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": false
+        },
+        "f1_score": {
+          "source_values": {
+            "Cleveland": 0.7340823970037453,
+            "Hungary": 0.6666666666666666,
+            "Switzerland": 0.7039106145251397
+          },
+          "mean": 0.7015532260651839,
+          "standard_deviation": 0.033769633318764036,
+          "median": 0.7039106145251397,
+          "range": 0.0674157303370787,
+          "random_split_mean": 0.7959074556254369,
+          "random_minus_source_mean": 0.09435422956025297,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": true
+        },
+        "brier_score": {
+          "source_values": {
+            "Cleveland": 0.1687393769003699,
+            "Hungary": 0.1809248317103463,
+            "Switzerland": 0.3020920225513475
+          },
+          "mean": 0.21725207705402125,
+          "standard_deviation": 0.0737257322189713,
+          "median": 0.1809248317103463,
+          "range": 0.1333526456509776,
+          "random_split_mean": 0.15011001485149947,
+          "random_minus_source_mean": 0.06714206220252178,
+          "direction": "lower_is_better",
+          "all_sources_worse_than_random_mean": true
+        }
+      }
+    },
+    "random_forest": {
+      "metrics": {
+        "roc_auc": {
+          "source_values": {
+            "Cleveland": 0.8115678189155993,
+            "Hungary": 0.8269018466479325,
+            "Switzerland": 0.7804347826086957
+          },
+          "mean": 0.8063014827240759,
+          "standard_deviation": 0.02367694517390802,
+          "median": 0.8115678189155993,
+          "range": 0.04646706403923684,
+          "random_split_mean": 0.8588533285512673,
+          "random_minus_source_mean": 0.05255184582719141,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": true
+        },
+        "balanced_accuracy": {
+          "source_values": {
+            "Cleveland": 0.7297771538866469,
+            "Hungary": 0.7561220393416299,
+            "Switzerland": 0.7445652173913043
+          },
+          "mean": 0.7434881368731937,
+          "standard_deviation": 0.013205427832558635,
+          "median": 0.7445652173913043,
+          "range": 0.026344885454983036,
+          "random_split_mean": 0.780821234175213,
+          "random_minus_source_mean": 0.03733309730201928,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": true
+        },
+        "accuracy": {
+          "source_values": {
+            "Cleveland": 0.735973597359736,
+            "Hungary": 0.7380952380952381,
+            "Switzerland": 0.7398373983739838
+          },
+          "mean": 0.7379687446096526,
+          "standard_deviation": 0.001935003881351973,
+          "median": 0.7380952380952381,
+          "range": 0.0038638010142477697,
+          "random_split_mean": 0.7808954933954935,
+          "random_minus_source_mean": 0.04292674878584091,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": true
+        },
+        "sensitivity": {
+          "source_values": {
+            "Cleveland": 0.6546762589928058,
+            "Hungary": 0.8207547169811321,
+            "Switzerland": 0.7391304347826086
+          },
+          "mean": 0.738187136918849,
+          "standard_deviation": 0.08304324722751331,
+          "median": 0.7391304347826086,
+          "range": 0.16607845798832632,
+          "random_split_mean": 0.745400780582042,
+          "random_minus_source_mean": 0.007213643663192992,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": false
+        },
+        "specificity": {
+          "source_values": {
+            "Cleveland": 0.8048780487804879,
+            "Hungary": 0.6914893617021277,
+            "Switzerland": 0.75
+          },
+          "mean": 0.7487891368275386,
+          "standard_deviation": 0.05670404069866085,
+          "median": 0.75,
+          "range": 0.11338868707836014,
+          "random_split_mean": 0.8162416877683842,
+          "random_minus_source_mean": 0.06745255094084568,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": true
+        },
+        "precision": {
+          "source_values": {
+            "Cleveland": 0.7398373983739838,
+            "Hungary": 0.6,
+            "Switzerland": 0.9770114942528736
+          },
+          "mean": 0.7722829642089524,
+          "standard_deviation": 0.19058843815000848,
+          "median": 0.7398373983739838,
+          "range": 0.3770114942528736,
+          "random_split_mean": 0.8046574468149281,
+          "random_minus_source_mean": 0.03237448260597575,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": false
+        },
+        "f1_score": {
+          "source_values": {
+            "Cleveland": 0.6946564885496184,
+            "Hungary": 0.6932270916334662,
+            "Switzerland": 0.8415841584158416
+          },
+          "mean": 0.7431559128663087,
+          "standard_deviation": 0.08524435720536185,
+          "median": 0.6946564885496184,
+          "range": 0.14835706678237537,
+          "random_split_mean": 0.7724667066540549,
+          "random_minus_source_mean": 0.02931079378774626,
+          "direction": "higher_is_better",
+          "all_sources_worse_than_random_mean": false
+        },
+        "brier_score": {
+          "source_values": {
+            "Cleveland": 0.1774127246057939,
+            "Hungary": 0.1771708238851096,
+            "Switzerland": 0.2159993676603432
+          },
+          "mean": 0.1901943053837489,
+          "standard_deviation": 0.022348166777475267,
+          "median": 0.1774127246057939,
+          "range": 0.03882854377523359,
+          "random_split_mean": 0.15386212504316665,
+          "random_minus_source_mean": 0.03633218034058225,
+          "direction": "lower_is_better",
+          "all_sources_worse_than_random_mean": true
+        }
+      }
+    }
+  }
+}

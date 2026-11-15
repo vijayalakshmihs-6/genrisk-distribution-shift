@@ -1,0 +1,43 @@
+source_a,source_b,comparison_type,feature,feature_type,observed_count_a,observed_count_b,standardized_mean_difference,kolmogorov_smirnov_statistic,wasserstein_distance,scale_normalized_wasserstein_distance,total_variation_distance,jensen_shannon_divergence
+Cleveland,Hungary,development_development,age,numeric,303,294,0.7819059832859447,0.35539166161514113,6.612413282144541,0.7819059832859444,,
+Cleveland,Hungary,development_development,sex,categorical,303,294,,,,,0.044621809119687494,0.0017182375109421333
+Cleveland,Hungary,development_development,cp,categorical,303,294,,,,,0.19552771603690977,0.040794899570566034
+Cleveland,Hungary,development_development,trestbps,numeric,303,293,-0.05074955772866749,0.062233185775915474,1.4188828439157917,0.0805591271930806,,
+Cleveland,Hungary,development_development,chol,numeric,303,271,-0.06949120053400054,0.05908930376432477,9.755288443973543,0.16312934692805298,,
+Cleveland,Hungary,development_development,restecg,categorical,303,293,,,,,0.4679710291848298,0.27907583450918627
+Cleveland,Hungary,development_development,thalach,numeric,303,293,0.4510533826891735,0.2613906441838723,10.550175154034175,0.4541790842729547,,
+Cleveland,Switzerland,development_development,age,numeric,303,123,-0.09717284029574763,0.08387668035096192,1.2733639217580297,0.14090908063419444,,
+Cleveland,Switzerland,development_development,sex,categorical,303,123,,,,,0.23883120019319004,0.06772303824370374
+Cleveland,Switzerland,development_development,cp,categorical,303,123,,,,,0.3215004427271996,0.08960443458053247
+Cleveland,Switzerland,development_development,trestbps,numeric,303,121,0.07748508561773765,0.15896135068052258,4.8850612333960655,0.25521187853729443,,
+Cleveland,Switzerland,development_development,chol,numeric,303,0,,,,,,
+Cleveland,Switzerland,development_development,restecg,categorical,303,122,,,,,0.4310717957041606,0.24440398016145903
+Cleveland,Switzerland,development_development,thalach,numeric,303,122,1.1783790749712846,0.4642103554617757,28.04988367689228,1.1783790749712846,,
+Cleveland,Long Beach VA,development_external,age,numeric,303,200,-0.5728946247586135,0.2619471947194719,4.911056105610561,0.5728946247586133,,
+Cleveland,Long Beach VA,development_external,sex,categorical,303,200,,,,,0.2901320132013201,0.11970506402379755
+Cleveland,Long Beach VA,development_external,cp,categorical,303,200,,,,,0.17975247524752477,0.030353254018541387
+Cleveland,Long Beach VA,development_external,trestbps,numeric,303,143,-0.16836780207429683,0.10385653950010386,3.0958018878810964,0.1731941735785431,,
+Cleveland,Long Beach VA,development_external,chol,numeric,303,144,0.1367187910199959,0.12410616061606161,8.227722772277232,0.15790897639728255,,
+Cleveland,Long Beach VA,development_external,restecg,categorical,303,200,,,,,0.4517986798679868,0.27616622245788713
+Cleveland,Long Beach VA,development_external,thalach,numeric,303,147,1.186841495653208,0.5159964976089446,26.811342358725668,1.186841495653208,,
+Hungary,Switzerland,development_development,age,numeric,294,123,-0.9146584998219224,0.406587025053924,7.490542558486809,0.9146584998219216,,
+Hungary,Switzerland,development_development,sex,categorical,294,123,,,,,0.19420939107350255,0.048572956712585325
+Hungary,Switzerland,development_development,cp,categorical,294,123,,,,,0.37838062054089927,0.16126999431245714
+Hungary,Switzerland,development_development,trestbps,numeric,293,121,0.1238377334150545,0.2008856796321891,5.008997828110454,0.26095974998550964,,
+Hungary,Switzerland,development_development,chol,numeric,271,0,,,,,,
+Hungary,Switzerland,development_development,restecg,categorical,293,122,,,,,0.10532647009455606,0.013246168829909033
+Hungary,Switzerland,development_development,thalach,numeric,293,122,0.7227364471933926,0.3301348402618475,17.572315783584177,0.7227364471933927,,
+Hungary,Long Beach VA,development_external,age,numeric,294,200,-1.4751427099527992,0.5927210884353742,11.523469387755101,1.4751427099527985,,
+Hungary,Long Beach VA,development_external,sex,categorical,294,200,,,,,0.2455102040816326,0.09486589814177493
+Hungary,Long Beach VA,development_external,cp,categorical,294,200,,,,,0.29054421768707483,0.09867666801736075
+Hungary,Long Beach VA,development_external,trestbps,numeric,293,143,-0.1182025130011568,0.10666125683190529,2.396501109811691,0.13389173143391359,,
+Hungary,Long Beach VA,development_external,chol,numeric,271,144,0.17929661134324237,0.10232164821648217,12.240569905699054,0.19457765122839926,,
+Hungary,Long Beach VA,development_external,restecg,categorical,293,200,,,,,0.4020477815699659,0.13158800459080333
+Hungary,Long Beach VA,development_external,thalach,numeric,293,147,0.7080420347044079,0.3186366696849388,16.333774465417566,0.708042034704408,,
+Switzerland,Long Beach VA,development_external,age,numeric,123,200,-0.4860877873135264,0.2152439024390244,4.032926829268293,0.48608778731352664,,
+Switzerland,Long Beach VA,development_external,sex,categorical,123,200,,,,,0.05130081300813007,0.009361985061009326
+Switzerland,Long Beach VA,development_external,cp,categorical,123,200,,,,,0.14174796747967477,0.019494492621077164
+Switzerland,Long Beach VA,development_external,trestbps,numeric,121,143,-0.21987524324913124,0.20470438652256834,5.364907819453274,0.2625622156189924,,
+Switzerland,Long Beach VA,development_external,chol,numeric,0,144,,,,,,
+Switzerland,Long Beach VA,development_external,restecg,categorical,122,200,,,,,0.2967213114754098,0.0656990796097563
+Switzerland,Long Beach VA,development_external,thalach,numeric,122,147,-0.05186554626690983,0.08386305341808854,3.405375264860043,0.14260456697338006,,

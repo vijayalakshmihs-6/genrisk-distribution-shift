@@ -1,0 +1,955 @@
+{
+  "source_holdout": {
+    "folds": [
+      {
+        "evaluation": "holdout_cleveland",
+        "model": "logistic_regression",
+        "training_sources": "Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 42,
+        "training_record_count": 417,
+        "held_out_record_count": 303,
+        "training_class_counts": {
+          "0": 196,
+          "1": 221
+        },
+        "held_out_class_counts": {
+          "0": 164,
+          "1": 139
+        },
+        "record_count": 303,
+        "class_counts": {
+          "0": 164,
+          "1": 139
+        },
+        "roc_auc": 0.8287418845411476,
+        "pr_auc": 0.7829039402294011,
+        "balanced_accuracy": 0.7610545709773644,
+        "sensitivity": 0.7050359712230215,
+        "specificity": 0.8170731707317073,
+        "brier_score": 0.16873937690036994,
+        "log_loss": 0.5158772566869427,
+        "accuracy": 0.7656765676567657,
+        "precision": 0.765625,
+        "f1_score": 0.7340823970037453
+      },
+      {
+        "evaluation": "holdout_cleveland",
+        "model": "random_forest",
+        "training_sources": "Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 42,
+        "training_record_count": 417,
+        "held_out_record_count": 303,
+        "training_class_counts": {
+          "0": 196,
+          "1": 221
+        },
+        "held_out_class_counts": {
+          "0": 164,
+          "1": 139
+        },
+        "record_count": 303,
+        "class_counts": {
+          "0": 164,
+          "1": 139
+        },
+        "roc_auc": 0.8115678189155993,
+        "pr_auc": 0.7762836496429184,
+        "balanced_accuracy": 0.7297771538866469,
+        "sensitivity": 0.6546762589928058,
+        "specificity": 0.8048780487804879,
+        "brier_score": 0.17741272460579394,
+        "log_loss": 0.5283730205639786,
+        "accuracy": 0.735973597359736,
+        "precision": 0.7398373983739838,
+        "f1_score": 0.6946564885496184
+      },
+      {
+        "evaluation": "holdout_hungary",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Switzerland",
+        "held_out_source": "Hungary",
+        "random_seed": 42,
+        "training_record_count": 426,
+        "held_out_record_count": 294,
+        "training_class_counts": {
+          "0": 172,
+          "1": 254
+        },
+        "held_out_class_counts": {
+          "0": 188,
+          "1": 106
+        },
+        "record_count": 294,
+        "class_counts": {
+          "0": 188,
+          "1": 106
+        },
+        "roc_auc": 0.8243677238057006,
+        "pr_auc": 0.7377885922341807,
+        "balanced_accuracy": 0.7343436370935368,
+        "sensitivity": 0.7452830188679245,
+        "specificity": 0.723404255319149,
+        "brier_score": 0.1809248317103463,
+        "log_loss": 0.5476750054521828,
+        "accuracy": 0.7312925170068028,
+        "precision": 0.6030534351145038,
+        "f1_score": 0.6666666666666666
+      },
+      {
+        "evaluation": "holdout_hungary",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Switzerland",
+        "held_out_source": "Hungary",
+        "random_seed": 42,
+        "training_record_count": 426,
+        "held_out_record_count": 294,
+        "training_class_counts": {
+          "0": 172,
+          "1": 254
+        },
+        "held_out_class_counts": {
+          "0": 188,
+          "1": 106
+        },
+        "record_count": 294,
+        "class_counts": {
+          "0": 188,
+          "1": 106
+        },
+        "roc_auc": 0.8269018466479325,
+        "pr_auc": 0.6825830645857014,
+        "balanced_accuracy": 0.7561220393416299,
+        "sensitivity": 0.8207547169811321,
+        "specificity": 0.6914893617021277,
+        "brier_score": 0.1771708238851096,
+        "log_loss": 0.5506518090396811,
+        "accuracy": 0.7380952380952381,
+        "precision": 0.6,
+        "f1_score": 0.6932270916334662
+      },
+      {
+        "evaluation": "holdout_switzerland",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary",
+        "held_out_source": "Switzerland",
+        "random_seed": 42,
+        "training_record_count": 597,
+        "held_out_record_count": 123,
+        "training_class_counts": {
+          "0": 352,
+          "1": 245
+        },
+        "held_out_class_counts": {
+          "0": 8,
+          "1": 115
+        },
+        "record_count": 123,
+        "class_counts": {
+          "0": 8,
+          "1": 115
+        },
+        "roc_auc": 0.817391304347826,
+        "pr_auc": 0.9844806872958405,
+        "balanced_accuracy": 0.7114130434782608,
+        "sensitivity": 0.5478260869565217,
+        "specificity": 0.875,
+        "brier_score": 0.3020920225513475,
+        "log_loss": 0.858261077117432,
+        "accuracy": 0.5691056910569106,
+        "precision": 0.984375,
+        "f1_score": 0.7039106145251397
+      },
+      {
+        "evaluation": "holdout_switzerland",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary",
+        "held_out_source": "Switzerland",
+        "random_seed": 42,
+        "training_record_count": 597,
+        "held_out_record_count": 123,
+        "training_class_counts": {
+          "0": 352,
+          "1": 245
+        },
+        "held_out_class_counts": {
+          "0": 8,
+          "1": 115
+        },
+        "record_count": 123,
+        "class_counts": {
+          "0": 8,
+          "1": 115
+        },
+        "roc_auc": 0.7804347826086957,
+        "pr_auc": 0.9776942689220471,
+        "balanced_accuracy": 0.7445652173913043,
+        "sensitivity": 0.7391304347826086,
+        "specificity": 0.75,
+        "brier_score": 0.21599936766034325,
+        "log_loss": 0.6277950125610127,
+        "accuracy": 0.7398373983739838,
+        "precision": 0.9770114942528736,
+        "f1_score": 0.8415841584158416
+      }
+    ],
+    "mean_by_model": {
+      "logistic_regression": {
+        "roc_auc": 0.823500304231558,
+        "balanced_accuracy": 0.7356037505163874,
+        "accuracy": 0.6886915919068265,
+        "sensitivity": 0.6660483590158225,
+        "specificity": 0.805159142016952,
+        "precision": 0.7843511450381678,
+        "f1_score": 0.7015532260651839,
+        "brier_score": 0.21725207705402125
+      },
+      "random_forest": {
+        "roc_auc": 0.8063014827240759,
+        "balanced_accuracy": 0.7434881368731937,
+        "accuracy": 0.7379687446096526,
+        "sensitivity": 0.738187136918849,
+        "specificity": 0.7487891368275386,
+        "precision": 0.7722829642089524,
+        "f1_score": 0.7431559128663087,
+        "brier_score": 0.19019430538374893
+      }
+    }
+  },
+  "random_split_benchmark": {
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "runs": [
+      {
+        "evaluation": "random_development_split",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 0,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 293,
+          "1": 284
+        },
+        "held_out_class_counts": {
+          "0": 67,
+          "1": 76
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 67,
+          "1": 76
+        },
+        "roc_auc": 0.8719560094265515,
+        "pr_auc": 0.8895845589621195,
+        "balanced_accuracy": 0.8003731343283582,
+        "sensitivity": 0.75,
+        "specificity": 0.8507462686567164,
+        "brier_score": 0.1459591216265764,
+        "log_loss": 0.4572423841050075,
+        "accuracy": 0.7972027972027972,
+        "precision": 0.8507462686567164,
+        "f1_score": 0.7972027972027972
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 0,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 293,
+          "1": 284
+        },
+        "held_out_class_counts": {
+          "0": 67,
+          "1": 76
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 67,
+          "1": 76
+        },
+        "roc_auc": 0.8627258444619011,
+        "pr_auc": 0.8781471946203323,
+        "balanced_accuracy": 0.7797525530243519,
+        "sensitivity": 0.7236842105263158,
+        "specificity": 0.835820895522388,
+        "brier_score": 0.1496752136752137,
+        "log_loss": 0.4790650740555959,
+        "accuracy": 0.7762237762237763,
+        "precision": 0.8333333333333334,
+        "f1_score": 0.7746478873239436
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 1,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 292,
+          "1": 285
+        },
+        "held_out_class_counts": {
+          "0": 68,
+          "1": 75
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 68,
+          "1": 75
+        },
+        "roc_auc": 0.8609803921568627,
+        "pr_auc": 0.8677965341992813,
+        "balanced_accuracy": 0.7897058823529413,
+        "sensitivity": 0.8,
+        "specificity": 0.7794117647058824,
+        "brier_score": 0.15440204494666326,
+        "log_loss": 0.4672571201758117,
+        "accuracy": 0.7902097902097902,
+        "precision": 0.8,
+        "f1_score": 0.8
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 1,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 292,
+          "1": 285
+        },
+        "held_out_class_counts": {
+          "0": 68,
+          "1": 75
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 68,
+          "1": 75
+        },
+        "roc_auc": 0.857450980392157,
+        "pr_auc": 0.8622909959761828,
+        "balanced_accuracy": 0.8184313725490195,
+        "sensitivity": 0.8133333333333334,
+        "specificity": 0.8235294117647058,
+        "brier_score": 0.1512028749028749,
+        "log_loss": 0.47284129077288994,
+        "accuracy": 0.8181818181818182,
+        "precision": 0.8356164383561644,
+        "f1_score": 0.8243243243243243
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 2,
+        "training_record_count": 576,
+        "held_out_record_count": 144,
+        "training_class_counts": {
+          "0": 284,
+          "1": 292
+        },
+        "held_out_class_counts": {
+          "0": 76,
+          "1": 68
+        },
+        "record_count": 144,
+        "class_counts": {
+          "0": 76,
+          "1": 68
+        },
+        "roc_auc": 0.8630030959752323,
+        "pr_auc": 0.8360280553761267,
+        "balanced_accuracy": 0.8041795665634675,
+        "sensitivity": 0.7794117647058824,
+        "specificity": 0.8289473684210527,
+        "brier_score": 0.15127602469815404,
+        "log_loss": 0.46375433522533793,
+        "accuracy": 0.8055555555555556,
+        "precision": 0.803030303030303,
+        "f1_score": 0.7910447761194029
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 2,
+        "training_record_count": 576,
+        "held_out_record_count": 144,
+        "training_class_counts": {
+          "0": 284,
+          "1": 292
+        },
+        "held_out_class_counts": {
+          "0": 76,
+          "1": 68
+        },
+        "record_count": 144,
+        "class_counts": {
+          "0": 76,
+          "1": 68
+        },
+        "roc_auc": 0.8722910216718266,
+        "pr_auc": 0.8455197865497575,
+        "balanced_accuracy": 0.7592879256965944,
+        "sensitivity": 0.6764705882352942,
+        "specificity": 0.8421052631578947,
+        "brier_score": 0.14837970679012347,
+        "log_loss": 0.44258576186402887,
+        "accuracy": 0.7638888888888888,
+        "precision": 0.7931034482758621,
+        "f1_score": 0.7301587301587301
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 3,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 288,
+          "1": 289
+        },
+        "held_out_class_counts": {
+          "0": 72,
+          "1": 71
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 72,
+          "1": 71
+        },
+        "roc_auc": 0.8159233176838809,
+        "pr_auc": 0.8257140922696358,
+        "balanced_accuracy": 0.7341549295774648,
+        "sensitivity": 0.7183098591549296,
+        "specificity": 0.75,
+        "brier_score": 0.18533145461965234,
+        "log_loss": 0.5490836989943839,
+        "accuracy": 0.7342657342657343,
+        "precision": 0.7391304347826086,
+        "f1_score": 0.7285714285714285
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 3,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 288,
+          "1": 289
+        },
+        "held_out_class_counts": {
+          "0": 72,
+          "1": 71
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 72,
+          "1": 71
+        },
+        "roc_auc": 0.8150430359937402,
+        "pr_auc": 0.8179440284040338,
+        "balanced_accuracy": 0.7273082942097027,
+        "sensitivity": 0.7323943661971831,
+        "specificity": 0.7222222222222222,
+        "brier_score": 0.18321538461538459,
+        "log_loss": 0.555611453831362,
+        "accuracy": 0.7272727272727273,
+        "precision": 0.7222222222222222,
+        "f1_score": 0.7272727272727273
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 4,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 287,
+          "1": 290
+        },
+        "held_out_class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "roc_auc": 0.9279843444227006,
+        "pr_auc": 0.9278959644358187,
+        "balanced_accuracy": 0.8749510763209394,
+        "sensitivity": 0.9142857142857143,
+        "specificity": 0.8356164383561644,
+        "brier_score": 0.110601821311681,
+        "log_loss": 0.36536523670267385,
+        "accuracy": 0.8741258741258742,
+        "precision": 0.8421052631578947,
+        "f1_score": 0.8767123287671232
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 4,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 287,
+          "1": 290
+        },
+        "held_out_class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "roc_auc": 0.913013698630137,
+        "pr_auc": 0.9077136377235023,
+        "balanced_accuracy": 0.8189823874755382,
+        "sensitivity": 0.8571428571428571,
+        "specificity": 0.7808219178082192,
+        "brier_score": 0.12219160839160838,
+        "log_loss": 0.3791509934271877,
+        "accuracy": 0.8181818181818182,
+        "precision": 0.7894736842105263,
+        "f1_score": 0.821917808219178
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 5,
+        "training_record_count": 576,
+        "held_out_record_count": 144,
+        "training_class_counts": {
+          "0": 283,
+          "1": 293
+        },
+        "held_out_class_counts": {
+          "0": 77,
+          "1": 67
+        },
+        "record_count": 144,
+        "class_counts": {
+          "0": 77,
+          "1": 67
+        },
+        "roc_auc": 0.8701298701298701,
+        "pr_auc": 0.8664132871071274,
+        "balanced_accuracy": 0.8166311300639659,
+        "sensitivity": 0.7761194029850746,
+        "specificity": 0.8571428571428571,
+        "brier_score": 0.14064055536133996,
+        "log_loss": 0.4441335966318129,
+        "accuracy": 0.8194444444444444,
+        "precision": 0.8253968253968254,
+        "f1_score": 0.8
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 5,
+        "training_record_count": 576,
+        "held_out_record_count": 144,
+        "training_class_counts": {
+          "0": 283,
+          "1": 293
+        },
+        "held_out_class_counts": {
+          "0": 77,
+          "1": 67
+        },
+        "record_count": 144,
+        "class_counts": {
+          "0": 77,
+          "1": 67
+        },
+        "roc_auc": 0.8696452800930413,
+        "pr_auc": 0.8689766170585203,
+        "balanced_accuracy": 0.7708858305873232,
+        "sensitivity": 0.6716417910447762,
+        "specificity": 0.8701298701298701,
+        "brier_score": 0.14638811728395063,
+        "log_loss": 0.450129380268785,
+        "accuracy": 0.7777777777777778,
+        "precision": 0.8181818181818182,
+        "f1_score": 0.7377049180327869
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 6,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 295,
+          "1": 282
+        },
+        "held_out_class_counts": {
+          "0": 65,
+          "1": 78
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 65,
+          "1": 78
+        },
+        "roc_auc": 0.8656804733727811,
+        "pr_auc": 0.8968876268563206,
+        "balanced_accuracy": 0.8179487179487179,
+        "sensitivity": 0.7435897435897436,
+        "specificity": 0.8923076923076924,
+        "brier_score": 0.15060494447584963,
+        "log_loss": 0.4817769899361635,
+        "accuracy": 0.8111888111888111,
+        "precision": 0.8923076923076924,
+        "f1_score": 0.8111888111888111
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 6,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 295,
+          "1": 282
+        },
+        "held_out_class_counts": {
+          "0": 65,
+          "1": 78
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 65,
+          "1": 78
+        },
+        "roc_auc": 0.8707100591715976,
+        "pr_auc": 0.8937808982565724,
+        "balanced_accuracy": 0.7807692307692308,
+        "sensitivity": 0.7307692307692307,
+        "specificity": 0.8307692307692308,
+        "brier_score": 0.14735718725718727,
+        "log_loss": 0.47503369799771306,
+        "accuracy": 0.7762237762237763,
+        "precision": 0.8382352941176471,
+        "f1_score": 0.7808219178082192
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 7,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 287,
+          "1": 290
+        },
+        "held_out_class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "roc_auc": 0.8598825831702545,
+        "pr_auc": 0.8451675947294138,
+        "balanced_accuracy": 0.7960861056751467,
+        "sensitivity": 0.7428571428571429,
+        "specificity": 0.8493150684931506,
+        "brier_score": 0.15209470694892352,
+        "log_loss": 0.4757244060365784,
+        "accuracy": 0.7972027972027972,
+        "precision": 0.8253968253968254,
+        "f1_score": 0.7819548872180451
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 7,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 287,
+          "1": 290
+        },
+        "held_out_class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "roc_auc": 0.8309197651663405,
+        "pr_auc": 0.8083474567533107,
+        "balanced_accuracy": 0.7895303326810176,
+        "sensitivity": 0.7571428571428571,
+        "specificity": 0.821917808219178,
+        "brier_score": 0.16918360528360527,
+        "log_loss": 0.5265912739677332,
+        "accuracy": 0.7902097902097902,
+        "precision": 0.803030303030303,
+        "f1_score": 0.7794117647058824
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 8,
+        "training_record_count": 576,
+        "held_out_record_count": 144,
+        "training_class_counts": {
+          "0": 291,
+          "1": 285
+        },
+        "held_out_class_counts": {
+          "0": 69,
+          "1": 75
+        },
+        "record_count": 144,
+        "class_counts": {
+          "0": 69,
+          "1": 75
+        },
+        "roc_auc": 0.8682125603864734,
+        "pr_auc": 0.8654750996755419,
+        "balanced_accuracy": 0.7652173913043478,
+        "sensitivity": 0.7333333333333333,
+        "specificity": 0.7971014492753623,
+        "brier_score": 0.15273958008797667,
+        "log_loss": 0.46221350512346265,
+        "accuracy": 0.7638888888888888,
+        "precision": 0.7971014492753623,
+        "f1_score": 0.7638888888888888
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 8,
+        "training_record_count": 576,
+        "held_out_record_count": 144,
+        "training_class_counts": {
+          "0": 291,
+          "1": 285
+        },
+        "held_out_class_counts": {
+          "0": 69,
+          "1": 75
+        },
+        "record_count": 144,
+        "class_counts": {
+          "0": 69,
+          "1": 75
+        },
+        "roc_auc": 0.8721739130434782,
+        "pr_auc": 0.8617660180395257,
+        "balanced_accuracy": 0.7802898550724637,
+        "sensitivity": 0.72,
+        "specificity": 0.8405797101449275,
+        "brier_score": 0.15110447530864196,
+        "log_loss": 0.4617799746275646,
+        "accuracy": 0.7777777777777778,
+        "precision": 0.8307692307692308,
+        "f1_score": 0.7714285714285715
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "logistic_regression",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 9,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 287,
+          "1": 290
+        },
+        "held_out_class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "roc_auc": 0.8418786692759296,
+        "pr_auc": 0.8475964042977064,
+        "balanced_accuracy": 0.811252446183953,
+        "sensitivity": 0.8142857142857143,
+        "specificity": 0.8082191780821918,
+        "brier_score": 0.157449894438178,
+        "log_loss": 0.4950436440639287,
+        "accuracy": 0.8111888111888111,
+        "precision": 0.8028169014084507,
+        "f1_score": 0.8085106382978723
+      },
+      {
+        "evaluation": "random_development_split",
+        "model": "random_forest",
+        "training_sources": "Cleveland+Hungary+Switzerland",
+        "held_out_source": "Cleveland",
+        "random_seed": 9,
+        "training_record_count": 577,
+        "held_out_record_count": 143,
+        "training_class_counts": {
+          "0": 287,
+          "1": 290
+        },
+        "held_out_class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "record_count": 143,
+        "class_counts": {
+          "0": 73,
+          "1": 70
+        },
+        "roc_auc": 0.824559686888454,
+        "pr_auc": 0.8262410282751869,
+        "balanced_accuracy": 0.7829745596868884,
+        "sensitivity": 0.7714285714285715,
+        "specificity": 0.7945205479452054,
+        "brier_score": 0.16992307692307693,
+        "log_loss": 0.5400994999728889,
+        "accuracy": 0.7832167832167832,
+        "precision": 0.782608695652174,
+        "f1_score": 0.7769784172661871
+      }
+    ],
+    "summary_by_model": {
+      "logistic_regression": {
+        "roc_auc_mean": 0.8645631316000537,
+        "roc_auc_std": 0.027968342887437124,
+        "balanced_accuracy_mean": 0.8010500380319302,
+        "balanced_accuracy_std": 0.03653963624269885,
+        "accuracy_mean": 0.8004273504273506,
+        "accuracy_std": 0.03634503094874152,
+        "sensitivity_mean": 0.7772192675197535,
+        "sensitivity_std": 0.056896585966559,
+        "specificity_mean": 0.824880808544107,
+        "specificity_std": 0.04177843987228331,
+        "precision_mean": 0.8178031963412679,
+        "precision_std": 0.04044176848564844,
+        "f1_score_mean": 0.7959074556254369,
+        "f1_score_std": 0.03761591313070827,
+        "brier_score_mean": 0.15011001485149947,
+        "brier_score_std": 0.01823641430019927
+      },
+      "random_forest": {
+        "roc_auc_mean": 0.8588533285512673,
+        "roc_auc_std": 0.028753832690366722,
+        "balanced_accuracy_mean": 0.780821234175213,
+        "balanced_accuracy_std": 0.02662233574985074,
+        "accuracy_mean": 0.7808954933954935,
+        "accuracy_std": 0.026035019943729875,
+        "sensitivity_mean": 0.745400780582042,
+        "sensitivity_std": 0.05735683989483601,
+        "specificity_mean": 0.8162416877683842,
+        "specificity_std": 0.041380285336168075,
+        "precision_mean": 0.8046574468149281,
+        "precision_std": 0.035623609749009584,
+        "f1_score_mean": 0.7724667066540549,
+        "f1_score_std": 0.0338619759601322,
+        "brier_score_mean": 0.15386212504316668,
+        "brier_score_std": 0.016725814353843786
+      }
+    }
+  },
+  "degradation_random_mean_minus_source_holdout_mean": {
+    "logistic_regression": {
+      "roc_auc": 0.04106282736849576,
+      "balanced_accuracy": 0.06544628751554282,
+      "accuracy": 0.11173575852052409,
+      "sensitivity": 0.11117090850393097,
+      "specificity": 0.019721666527154902,
+      "precision": 0.03345205130310003,
+      "f1_score": 0.09435422956025297,
+      "brier_score": -0.06714206220252178
+    },
+    "random_forest": {
+      "roc_auc": 0.05255184582719141,
+      "balanced_accuracy": 0.03733309730201928,
+      "accuracy": 0.04292674878584091,
+      "sensitivity": 0.007213643663192992,
+      "specificity": 0.06745255094084568,
+      "precision": 0.03237448260597575,
+      "f1_score": 0.02931079378774626,
+      "brier_score": -0.03633218034058225
+    }
+  },
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "restecg",
+    "thalach"
+  ],
+  "target_mapping": {
+    "0": 0,
+    "1-4": 1
+  },
+  "threshold": 0.5,
+  "models": [
+    "logistic_regression",
+    "random_forest"
+  ],
+  "preprocessing": "Reused training-only imputation, encoding, and model-specific scaling from the primary study."
+}

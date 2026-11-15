@@ -1,0 +1,43 @@
+source_a,source_b,comparison_type,feature,missing_count_a,missing_count_b,missing_percentage_a,missing_percentage_b,absolute_missing_percentage_difference
+Cleveland,Hungary,development_development,age,0,0,0.0,0.0,0.0
+Cleveland,Hungary,development_development,sex,0,0,0.0,0.0,0.0
+Cleveland,Hungary,development_development,cp,0,0,0.0,0.0,0.0
+Cleveland,Hungary,development_development,trestbps,0,1,0.0,0.3401360544217687,0.3401360544217687
+Cleveland,Hungary,development_development,chol,0,23,0.0,7.8231292517006805,7.8231292517006805
+Cleveland,Hungary,development_development,restecg,0,1,0.0,0.3401360544217687,0.3401360544217687
+Cleveland,Hungary,development_development,thalach,0,1,0.0,0.3401360544217687,0.3401360544217687
+Cleveland,Switzerland,development_development,age,0,0,0.0,0.0,0.0
+Cleveland,Switzerland,development_development,sex,0,0,0.0,0.0,0.0
+Cleveland,Switzerland,development_development,cp,0,0,0.0,0.0,0.0
+Cleveland,Switzerland,development_development,trestbps,0,2,0.0,1.6260162601626018,1.6260162601626018
+Cleveland,Switzerland,development_development,chol,0,123,0.0,100.0,100.0
+Cleveland,Switzerland,development_development,restecg,0,1,0.0,0.8130081300813009,0.8130081300813009
+Cleveland,Switzerland,development_development,thalach,0,1,0.0,0.8130081300813009,0.8130081300813009
+Cleveland,Long Beach VA,development_external,age,0,0,0.0,0.0,0.0
+Cleveland,Long Beach VA,development_external,sex,0,0,0.0,0.0,0.0
+Cleveland,Long Beach VA,development_external,cp,0,0,0.0,0.0,0.0
+Cleveland,Long Beach VA,development_external,trestbps,0,57,0.0,28.499999999999996,28.499999999999996
+Cleveland,Long Beach VA,development_external,chol,0,56,0.0,28.000000000000004,28.000000000000004
+Cleveland,Long Beach VA,development_external,restecg,0,0,0.0,0.0,0.0
+Cleveland,Long Beach VA,development_external,thalach,0,53,0.0,26.5,26.5
+Hungary,Switzerland,development_development,age,0,0,0.0,0.0,0.0
+Hungary,Switzerland,development_development,sex,0,0,0.0,0.0,0.0
+Hungary,Switzerland,development_development,cp,0,0,0.0,0.0,0.0
+Hungary,Switzerland,development_development,trestbps,1,2,0.3401360544217687,1.6260162601626018,1.2858802057408332
+Hungary,Switzerland,development_development,chol,23,123,7.8231292517006805,100.0,92.17687074829932
+Hungary,Switzerland,development_development,restecg,1,1,0.3401360544217687,0.8130081300813009,0.4728720756595322
+Hungary,Switzerland,development_development,thalach,1,1,0.3401360544217687,0.8130081300813009,0.4728720756595322
+Hungary,Long Beach VA,development_external,age,0,0,0.0,0.0,0.0
+Hungary,Long Beach VA,development_external,sex,0,0,0.0,0.0,0.0
+Hungary,Long Beach VA,development_external,cp,0,0,0.0,0.0,0.0
+Hungary,Long Beach VA,development_external,trestbps,1,57,0.3401360544217687,28.499999999999996,28.159863945578227
+Hungary,Long Beach VA,development_external,chol,23,56,7.8231292517006805,28.000000000000004,20.176870748299322
+Hungary,Long Beach VA,development_external,restecg,1,0,0.3401360544217687,0.0,0.3401360544217687
+Hungary,Long Beach VA,development_external,thalach,1,53,0.3401360544217687,26.5,26.15986394557823
+Switzerland,Long Beach VA,development_external,age,0,0,0.0,0.0,0.0
+Switzerland,Long Beach VA,development_external,sex,0,0,0.0,0.0,0.0
+Switzerland,Long Beach VA,development_external,cp,0,0,0.0,0.0,0.0
+Switzerland,Long Beach VA,development_external,trestbps,2,57,1.6260162601626018,28.499999999999996,26.873983739837396
+Switzerland,Long Beach VA,development_external,chol,123,56,100.0,28.000000000000004,72.0
+Switzerland,Long Beach VA,development_external,restecg,1,0,0.8130081300813009,0.0,0.8130081300813009
+Switzerland,Long Beach VA,development_external,thalach,1,53,0.8130081300813009,26.5,25.6869918699187
